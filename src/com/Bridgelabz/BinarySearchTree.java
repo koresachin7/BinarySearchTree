@@ -1,7 +1,17 @@
 package com.Bridgelabz;
+/**
+ * Purpose - To create Binary Search Tree
+ * @author - Sachin kore
+ * @version - 16.0
+ */
 
 public class BinarySearchTree {
     public static void main(String[] args) {
         System.out.println("Welcome to Binary Search Tree");
+        BinaryTree<Integer> myTree = new BinaryTree<>();
+        myTree.add(56);
+        myTree.add(30);
+        myTree.add(70);
+        myTree.print(myTree.root);
     }
 }
